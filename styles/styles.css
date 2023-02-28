@@ -88,8 +88,15 @@ margin-left: 15px;
         line-height: 24px;
         color: #595959;
         margin-left: 10px ;
-}
 
+        transition: color 250ms ease;
+}
+.project-link:hover, :focus {
+    color:#a84c4c
+}
+.git {
+    font-weight: 700;
+}
 .project-brecket {
     font-style: normal;
         font-weight: 700;
@@ -248,8 +255,11 @@ border-radius: 50%;
         font-size: 14px;
         line-height: 30px;
         color: #FFFFFF;
+        transition: opacity 250ms ease;
         
-        opacity: 0.5;
+}
+.C:hover , :focus {
+    opacity: 0.5;
 }
 .sidebar-title {
 color: #FFFFFF;
