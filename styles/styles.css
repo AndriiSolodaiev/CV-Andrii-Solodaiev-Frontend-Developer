@@ -6,6 +6,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color:#F5F7FA;
+   
 }
 /* mainstyles */
 .main {
@@ -15,9 +16,10 @@ body {
     margin: 0 auto
 }
 .main-content {
-    background-image: linear-gradient(to bottom, var(--main-color) 205px, #fff 205px );
+    background-image: linear-gradient(to bottom, var(--main-color) 180px, #fff 180px );
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 30px 80px;
+    padding-bottom: 27px;
 }
 /* about styles */
 .about {
@@ -25,7 +27,7 @@ margin-bottom: 0px;
    
 }
 .title-wrapper {
-    height: 180px;
+    height: 150px;
     padding-top: 20px;
   
 }
@@ -68,6 +70,8 @@ font-style: normal;
         line-height: 27px;
         color: #000000;
         margin-bottom: 15px;
+        margin-top: 20px;
+        
 }
 .project-list {
 padding: 0;
@@ -130,6 +134,7 @@ margin-left: 15px;
         line-height: 24px;
         color: #595959;
         margin-bottom: 0;
+        margin-top: 0;
 }
 .work-list-item {
     font-style: normal;
@@ -141,8 +146,10 @@ margin-left: 15px;
 }
 .achievement {
     margin: 0;
-
 }
+
+    
+
 .org {
     font-style: normal;
         font-weight: 700;
@@ -156,7 +163,7 @@ margin-left: 15px;
         font-size: 12px;
         line-height: 15px;
         color: #A8A8A8;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         margin-top: 5px;
 }
 .slash {
@@ -176,8 +183,8 @@ margin-left: 15px;
     font-size: 14px;
     line-height: 20px;
     color: var(--accent-color);
-    margin-bottom: 10px;
-    margin-top: 18px;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 .faculty {
     font-style: normal;
@@ -185,23 +192,24 @@ margin-left: 15px;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-margin-bottom: 10px;
+margin-bottom: 5px;
 margin-top: 0;
 }
-    
+    .period-bottom-margin{
+        margin-bottom: 10px;
+    }
 .sidebar {
     z-index: 1;
-background-image: linear-gradient(to bottom, #fff 205px, var(--main-color) 205px); 
-
-width: 410px;
+background-image: linear-gradient(to bottom, #fff 180px, var(--main-color) 180px); 
+width: 360px;
 
 
 }
 /* img styles */
 .img-wrap {
-    width: 410px;
-    height: 410px;
-    background-image: linear-gradient(to bottom, var(--main-color) 205px, rgba(180, 177, 190, 0.514) 205px);
+    width: 360px;
+    height: 360px;
+    background-image: linear-gradient(to bottom, var(--main-color) 180px, rgba(180, 177, 190, 0.514) 180px);
     border-radius: 50%;
      position: relative;
     box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.26)
@@ -210,10 +218,10 @@ width: 410px;
     position: absolute;
     top:15px;
     left: 15px;
-width: 380px;
+width: 330px;
 margin-bottom: 50px;
 border-radius: 50%;
-/* box-shadow: 0px 17px 8px rgba(180, 177, 190, 0.514), 0px -17px 8px rgb(82, 77, 97) ; */
+
 }
 /* Contacts */
 .contacts,
@@ -286,6 +294,3 @@ margin-bottom: 10px;
     color: #FFFFFF;
 }
 
-.endOfResume {
-    margin-bottom: 40px;
-}
