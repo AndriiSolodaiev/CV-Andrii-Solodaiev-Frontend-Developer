@@ -15,7 +15,7 @@ body {
     width: 1220px;
     margin: 0 auto;
     transform: scale(0.7);
-    transform-origin: top;
+    transform-origin: top left;
     margin-left: 0;
 }
 .main-content {
