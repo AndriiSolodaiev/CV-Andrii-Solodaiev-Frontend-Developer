@@ -13,7 +13,9 @@ body {
     display: flex ;
     flex-direction: row-reverse;
     width: 1220px;
-    margin: 0 auto
+    margin: 0 auto;
+    transform: scale(0.6);
+    transform-origin: top;
 }
 .main-content {
     background-image: linear-gradient(to bottom, var(--main-color) 180px, #fff 180px );
