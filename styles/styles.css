@@ -13,8 +13,9 @@ body {
     display: flex ;
     flex-direction: row-reverse;
     width: 1220px;
+    height: 460mm;
     margin: 0 auto;
-    transform: scale(0.7);
+    transform: scale(0.65);
     transform-origin: top left;
     margin-left: 0;
 }
