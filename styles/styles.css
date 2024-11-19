@@ -245,6 +245,9 @@ border-radius: 50%;
     fill:#fff;
     margin-right: 10px;
 }
+.contact-icon path {
+ fill:#fff;
+}
 /* .contact-png {
 mix-blend-mode:light;
 } */
