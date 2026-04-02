@@ -6,7 +6,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color:#F5F7FA;
-   
+    margin: 0;
 }
 /* mainstyles */
 .main {
@@ -22,7 +22,7 @@ body {
 .main-content {
     background-image: linear-gradient(to bottom, var(--main-color) 180px, #fff 180px );
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 30px 80px;
+    padding: 30px 50px;
     padding-bottom: 27px;
 }
 /* about styles */
