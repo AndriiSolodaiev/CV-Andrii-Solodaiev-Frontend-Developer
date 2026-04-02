@@ -1,5 +1,6 @@
 var translations = {
   en: {
+    name: "Andrii Solodaiev",
     position: "Frontend developer",
     about: "I am a Frontend Developer with 4 years of experience, including 3 years of commercial experience. I have successfully delivered over 30+ commercial projects. Additionally, I am responsible for supporting and enhancing the company product - DevBase (a PHP and React.js web application for real estate sales departments), which also includes a CRM system. I am proficient in all stages of advanced web development, including UI design, testing processes, and bug fixing. I possess a solid understanding of technologies such as JavaScript, React.js, and React Native. I am skilled in utilizing popular libraries and technologies for performance optimization (Redux Toolkit, Gulp, WebPack, PUG) as well as implementing complex modern visual effects using GSAP, Framer, WebGL, and C3. Able to work effectively in a team environment and consistently deliver high-quality code.",
     projects_title: "Projects",
@@ -35,6 +36,7 @@ var translations = {
     lang_4: "Russian - Native"
   },
   uk: {
+    name: "Андрій Солодаєв",
     position: "Frontend розробник",
     about: "Я Frontend-розробник з 4-річним досвідом, включаючи 3 роки комерційного досвіду. Успішно реалізував понад 30+ комерційних проектів. Крім того, я відповідаю за підтримку та вдосконалення продукту компанії - DevBase (веб-додаток на PHP та React.js для відділів продажу нерухомості), який також містить CRM-систему. Володію всіма етапами розробки веб-додатків, включаючи дизайн інтерфейсу, тестування та виправлення помилок. Маю глибоке розуміння таких технологій, як JavaScript, React.js та React Native. Вмію використовувати популярні бібліотеки та технології для оптимізації продуктивності (Redux Toolkit, Gulp, WebPack, PUG), а також впроваджувати складні сучасні візуальні ефекти за допомогою GSAP, Framer, WebGL та C3. Здатний ефективно працювати в команді та стабільно видавати високоякісний код.",
     projects_title: "Проєкти",
