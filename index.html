@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Resume</title>
+    <title data-i18n="resume_title">Resume</title>
 </head>
 <body>
     
@@ -20,23 +20,37 @@
         <div class="about">
             <div class="title-wrapper">
             <h1 class="about-name">Andrii Solodaiev</h1> 
-            <h2 class="about-position">Frontend developer</h2> 
+            <h2 class="about-position" data-i18n="position">Frontend developer</h2> 
             </div>
-            <p class="about-description">I am a Frontend Developer with 2 years of experience, including 1.5 years of commercial experience. I have successfully delivered over 15 commercial projects. Additionally, I am responsible for supporting and enhancing the  company product - DevBase (a PHP and React.js web application for real estate sales departments), which also includes a CRM system. I am proficient in all stages of advanced web development, including UI design, testing processes, and bug fixing. I possess a solid understanding of technologies such as JavaScript, React.js, and React Native. I am skilled in utilizing popular libraries and technologies for performance optimization (Redux Toolkit, Gulp, WebPack, PUG) as well as implementing complex modern visual effects using GSAP, Framer, WebGL, and C3. Able to work effectively in a team environment and consistently deliver high-quality code.
+            <p class="about-description" data-i18n="about">I am a Frontend Developer with 2 years of experience, including 1.5 years of commercial experience. I have successfully delivered over 15 commercial projects. Additionally, I am responsible for supporting and enhancing the  company product - DevBase (a PHP and React.js web application for real estate sales departments), which also includes a CRM system. I am proficient in all stages of advanced web development, including UI design, testing processes, and bug fixing. I possess a solid understanding of technologies such as JavaScript, React.js, and React Native. I am skilled in utilizing popular libraries and technologies for performance optimization (Redux Toolkit, Gulp, WebPack, PUG) as well as implementing complex modern visual effects using GSAP, Framer, WebGL, and C3. Able to work effectively in a team environment and consistently deliver high-quality code.
             </p> 
         </div>
         <!--Projects-->
         <div class="projects">
-            <h3 class="title">
+            <h3 class="title" data-i18n="projects_title">
                 Projects
             </h3>
             <ol class="project-list" >
                 <li class="project-item">
                     <span class="project">
-                        <a href="https://invest.mountain-residence.com/" class="project-link org" target="_blank" rel="noopener noreferrer">Mountain-Residence</a>
-                        <a href="https://github.com/AndriiSolodaiev/mountain-residence.git" class="project-link git" target="_blank" rel="noopener noreferrer"> GIT link </a>
+                        <a href="https://devbase.pro/" class="project-link org" target="_blank" rel="noopener noreferrer">DevBase</a>
+                        <span class="project-brecket">&nbsp &nbsp[</span> PHP, React.js, MUI <span class="project-brecket">]</span>
+                        <p class="project-description" data-i18n="project_1_desc">Comprehensive digital ecosystem for real estate developers. Includes a CRM system with automated sales funnels, lead management, and an interactive 'chessboard' for real-time inventory control. Features ERP components for financial management and operational efficiency. Role: Frontend Developer</p>
+                    </span>
+                </li>
+                <li class="project-item">
+                    <span class="project">
+                        <a href="https://svidomy.com.ua/3d/" class="project-link org" target="_blank" rel="noopener noreferrer">Interactive 3D Module</a>
+                        <span class="project-brecket">&nbsp &nbsp[</span> PUG, SASS, JS, WebGL, Gulp <span class="project-brecket">]</span>
+                        <p class="project-description" data-i18n="project_2_desc">Interactive 3D module for property selection, allowing users to explore residential complexes and select apartments in a 3D environment. Integrated with real-time inventory data for visual selection and booking. Role: Frontend Developer</p>
+                    </span>
+                </li>
+                <li class="project-item">
+                    <span class="project">
+                        <a href="https://svidomy.com.ua/" class="project-link org" target="_blank" rel="noopener noreferrer">Svidomy</a>
+                        <a href="https://github.com/AndriiSolodaiev/inzhur-site" class="project-link git" target="_blank" rel="noopener noreferrer"> GIT link </a>
                         <span class="project-brecket">&nbsp &nbsp[</span> PUG, SASS, JS, GSAP, WebGL, Webpack, Gulp <span class="project-brecket">]</span>
-                        <p class="project-description">Website for one of the largest aparthotels and business complexes located in the center of the Bukovel ski resort. The project includes 50 pages and a <a href="https://invest.mountain-residence.com/3d/" class="project-link git" target="_blank" rel="noopener noreferrer">3D module </a> for complexes with an interactive apartment selection feature, and 2 video spheres. Role: Frontend Developer</p>
+                        <p class="project-description" data-i18n="project_3_desc">Website for a modern residential complex in the suburbs of Kyiv. The project features a thoughtful infrastructure, including backup power systems, a private water well, and proximity to kindergartens and parks. Role: Frontend Developer</p>
                     </span>
                 </li>
                 <li class="project-item">
@@ -44,7 +58,7 @@
                         <a href="https://twins.vn.ua/" class="project-link org" target="_blank" rel="noopener noreferrer">TWINS</a>
                         <a href="https://github.com/AndriiSolodaiev/JS-command-project.git" class="project-link git" target="_blank" rel="noopener noreferrer"> GIT link </a>
                         <span class="project-brecket">&nbsp &nbsp[</span> PUG, SASS, JS, GSAP, Swiper, Slick, Webpack, Gulp <span class="project-brecket">]</span>
-                        <p class="project-description">Website for a luxury residential complex in Vinnytsia. The project comprises 9 pages, featuring 10 virtual tours and 17 drone panoramas, implemented via a custom module. Almost every element on the website includes appearance and scroll animations tailored to client preferences, along with creative photo transition animations in the gallery.Role: Frontend Developer</p>
+                        <p class="project-description" data-i18n="project_4_desc">Website for a luxury residential complex in Vinnytsia. The project comprises 9 pages, featuring 10 virtual tours and 17 drone panoramas, implemented via a custom module. Almost every element on the website includes appearance and scroll animations tailored to client preferences, along with creative photo transition animations in the gallery.Role: Frontend Developer</p>
                     </span>
                 </li>
                 <li class="project-item">
@@ -52,24 +66,7 @@
                         <a href="https://vertykal.ua/" class="project-link org" target="_blank" rel="noopener noreferrer">Vertical Development</a>
                         <a href="https://github.com/AndriiSolodaiev/vertical-site.git" class="project-link git" target="_blank" rel="noopener noreferrer"> GIT link </a>
                         <span class="project-brecket">&nbsp &nbsp[</span> PUG, SASS, JS, GSAP, Swiper, Webpack, Gulp <span class="project-brecket">]</span>
-                        <p class="project-description">The main website for a residential complex developer in Ivano-Frankivsk, showcasing all the company's projects. The website consists of 7 pages, and includes a custom installment calculator integrated with a database for pricing and currency exchange rates. Role: Frontend Developer</p>
-                    </span>
-                </li>
-                <li class="project-item">
-                    <span class="project">
-                        <a href="https://katerinapilipets.github.io/team-project-TaskPro-Frontend/" class="project-link org" target="_blank" rel="noopener noreferrer">TaskPro</a>
-                        <a href="https://github.com/AndriiSolodaiev/team-project-TaskPro-Frontend.git" class="project-link git" target="_blank" rel="noopener noreferrer"> GIT link </a>
-                        <span class="project-brecket">&nbsp &nbsp[</span> React, Redux Toolkit, MUI, Node.js, Express, Mongo DB <span class="project-brecket">]</span>
-                        <p class="project-description">Project management application (Trello-style) with logging, themization, self-written backend, database and adaptive markup, Role: Developer.</p>
-                    </span>
-                </li>
-                <li class="project-item">
-                    <span class="project">
-                        <a href="https://www.fflogistics.com.ua/" class="project-link org" target="_blank" rel="noopener noreferrer">Full Freight Logistics</a>
-                        <a href="https://github.com/AndriiSolodaiev/fflogistics.git" class="project-link git" target="_blank" rel="noopener noreferrer"> GIT link </a>
-                        <span class="project-brecket">&nbsp &nbsp[</span> React, SASS, i18next, React Router Dom <span class="project-brecket">]</span>
-                        <p class="project-description">Commercial multi-page site for a logistics company with routing, adaptive layout, adaptive graphics, localization, SASS preprocessor, BEM
-                            methodology, React Slick Carousel.</p>
+                        <p class="project-description" data-i18n="project_5_desc">The main website for a residential complex developer in Ivano-Frankivsk, showcasing all the company's projects. The website consists of 7 pages, and includes a custom installment calculator integrated with a database for pricing and currency exchange rates. Role: Frontend Developer</p>
                     </span>
                 </li>
                 
@@ -77,19 +74,19 @@
         </div>
         <!--Work-->
         <div class="work">
-            <h3 class="title">Work Experience</h3>
+            <h3 class="title" data-i18n="work_title">Work Experience</h3>
             <!--Company 1-->
              <div>
             <h4 class="work-position">Frontend Developer <span class="org">SmartOrange</span></h4>
-            <p class="period">August 2023 - Present <span class="slash">|</span> Ukraine</p>
+            <p class="period" data-i18n="work_period">August 2023 - Present <span class="slash">|</span> Ukraine</p>
             <ul class="work-list">
-                <li class="work-list-item">Develop and enhance user interfaces for company products (e.g., DevBase, 3D-module, 360-tour) using React.js, JavaScript, and PHP.</li> 
-                <li class="work-list-item">Create adaptive and responsive website layouts based on designer mockups with pixel-perfect precision, utilizing tools such as Gulp, Sass, Pug, JavaScript, GSAP, and Webflow.</li>
-                <li class="work-list-item">Test and debug web applications and websites to ensure functionality and performance.</li>
-                <li class="work-list-item">Collaborate closely with design and backend teams to ensure seamless integration and functionality.</li>
-                <li class="work-list-item">Communicate and report project progress within the Worksection workspace.</li>                
+                <li class="work-list-item" data-i18n="work_item_1">Develop and enhance user interfaces for company products (e.g., DevBase, 3D-module, 360-tour) using React.js, JavaScript, and PHP.</li> 
+                <li class="work-list-item" data-i18n="work_item_2">Create adaptive and responsive website layouts based on designer mockups with pixel-perfect precision, utilizing tools such as Gulp, Sass, Pug, JavaScript, GSAP, and Webflow.</li>
+                <li class="work-list-item" data-i18n="work_item_3">Test and debug web applications and websites to ensure functionality and performance.</li>
+                <li class="work-list-item" data-i18n="work_item_4">Collaborate closely with design and backend teams to ensure seamless integration and functionality.</li>
+                <li class="work-list-item" data-i18n="work_item_5">Communicate and report project progress within the Worksection workspace.</li>                
             </ul>
-            <p class="work-list-item achievement"><i>Achievement:</i> Developed, adapted, and implemented a comprehensive analytics section for the company's DevBase product.</p>
+            <p class="work-list-item achievement" data-i18n="work_achievement"><i>Achievement:</i> Developed, adapted, and implemented a comprehensive analytics section for the company's DevBase product.</p>
         </div>
             <!--Company 2-->
 <!--             <div>
@@ -108,12 +105,12 @@
         </div class="educ">
         <!--Education-->
         <div class="education">
-        <h3 class="title">Education</h3>
+        <h3 class="title" data-i18n="education_title">Education</h3>
         <h4 class="university">IT School GoIT (Kyiv)</h4>
-        <h5 class="faculty">Fullstack Developer</h5>
+        <h5 class="faculty" data-i18n="edu_1_faculty">Fullstack Developer</h5>
         <p class="period period-bottom-margin">2022-2023 <span class="slash">|</span> Ukraine</p>
-        <h4 class="university">National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute</h4>
-        <h5 class="faculty">Management of foreign economic activity</h5>
+        <h4 class="university" data-i18n="edu_2_university">National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute</h4>
+        <h5 class="faculty" data-i18n="edu_2_faculty">Management of foreign economic activity</h5>
         <p class="period endOfResume">2015 - 2019 <span class="slash">|</span> Ukraine</p>
         </div>
     </div>
@@ -123,7 +120,7 @@
         <img src="img/photo.jpg" alt="user photo" class="photo"></div>
         <!--Contacts-->
         <div class="contacts">
-            <h3 class="sidebar-title">Contacts</h3>
+            <h3 class="sidebar-title" data-i18n="contacts_title">Contacts</h3>
             <div>
                 <ul class="contasts-list">
                     <li class="contacts-item">
@@ -175,7 +172,7 @@
         </div>
         <!--Tech Skills-->
         <div class="skills">
-            <h3 class="sidebar-title">Tech Skills</h3>
+            <h3 class="sidebar-title" data-i18n="skills_tech_title">Tech Skills</h3>
             <ul class="tech-skills-list">
                 <li class="list-points"><span class="tech-skills-text">HTML5</span> </li>
                 <li class="list-points"><span class="tech-skills-text">CSS3</span></li>               
@@ -196,27 +193,29 @@
         </div>
         <!--Soft Skills-->
         <div class="skills">
-            <h3 class="sidebar-title">Soft Skills</h3>
+            <h3 class="sidebar-title" data-i18n="skills_soft_title">Soft Skills</h3>
             <ul class="tech-skills-list">
-                <li class="list-points"><span class="tech-skills-text">Accurate</span></li>
-                <li class="list-points"><span class="tech-skills-text">Critical thinking</span></li>
-                <li class="list-points"><span class="tech-skills-text">Open-minded</span></li>
-                <li class="list-points"><span class="tech-skills-text">Emotional Intelligence</span></li>
-                <li class="list-points"><span class="tech-skills-text">Cooperative</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="soft_skill_1">Accurate</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="soft_skill_2">Critical thinking</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="soft_skill_3">Open-minded</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="soft_skill_4">Emotional Intelligence</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="soft_skill_5">Cooperative</span></li>
             </ul>
         </div>
         <!--Languages-->
         <div class="skills">
-            <h3 class="sidebar-title">Languages</h3>
+            <h3 class="sidebar-title" data-i18n="skills_lang_title">Languages</h3>
             <ul class="tech-skills-list">
-                <li class="list-points"><span class="tech-skills-text">English - Upper-Intermediate</span></li>
-                <li class="list-points"><span class="tech-skills-text">Polish - Upper-Intermediate</span></li>
-                <li class="list-points"><span class="tech-skills-text">Ukrainian - Native</span></li>
-                <li class="list-points"><span class="tech-skills-text">Russian - Native</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="lang_1">English - Upper-Intermediate</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="lang_2">Polish - Upper-Intermediate</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="lang_3">Ukrainian - Native</span></li>
+                <li class="list-points"><span class="tech-skills-text" data-i18n="lang_4">Russian - Native</span></li>
             </ul>
         </div>
     </aside>
 </div>
 
+    <script src="translations.js?v=2"></script>
+    <script src="index.js?v=2"></script>
 </body>
 </html>
