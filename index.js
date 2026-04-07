@@ -2,7 +2,7 @@
  * Variable to control the language of the CV.
  * Set to 'en' for English or 'uk' for Ukrainian.
  */
-const LANG = 'uk'; 
+const LANG = 'en'; 
 
 /**
  * Function to apply translations to the DOM.
